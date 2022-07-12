@@ -1,0 +1,211 @@
+{
+    "_fileVersion": 3,
+    "_serializedScheduler": {
+        "version": 0,
+        "Guid": "",
+        "ClockSource": 0,
+        "TimeUnit": 1000,
+        "NodeGuidOrder": [],
+        "ClockEvents": [],
+        "GovernorLevel": 0,
+        "Prescaler": 1
+    },
+    "_serializedParameters": [
+        {
+            "version": 2,
+            "Guid": "a43e0646-1b6d-43f7-8d04-c9c347b15a2e",
+            "Type": "Boolean",
+            "Name": "EmergencyStop",
+            "Value": "{\"Data\":false}",
+            "Direction": 2,
+            "FieldExtra": 4,
+            "isExposed": true
+        },
+        {
+            "version": 2,
+            "Guid": "69def822-56aa-4195-a6fa-eadc18771757",
+            "Type": "Boolean",
+            "Name": "ItemIn",
+            "Value": "",
+            "Direction": 2,
+            "FieldExtra": 4,
+            "isExposed": true
+        },
+        {
+            "version": 2,
+            "Guid": "b0913acd-bc7e-4acb-8f8b-9de0ff69904e",
+            "Type": "Boolean",
+            "Name": "ItemOut",
+            "Value": "",
+            "Direction": 2,
+            "FieldExtra": 4,
+            "isExposed": true
+        },
+        {
+            "version": 2,
+            "Guid": "942b1d24-2880-4ba6-8b2e-003a29fb0d9c",
+            "Type": "Boolean",
+            "Name": "IsRunning",
+            "Value": "",
+            "Direction": 1,
+            "FieldExtra": 2,
+            "isExposed": true
+        },
+        {
+            "version": 2,
+            "Guid": "69d8c780-f038-4ff5-9e9c-08e9a2204309",
+            "Type": "UInt",
+            "Name": "CurrentNumberOfItems",
+            "Value": "",
+            "Direction": 1,
+            "FieldExtra": 2,
+            "isExposed": true
+        },
+        {
+            "version": 2,
+            "Guid": "99b28562-3e35-43e5-968f-3b746392f287",
+            "Type": "UInt",
+            "Name": "TotalNumberOfItems",
+            "Value": "",
+            "Direction": 1,
+            "FieldExtra": 2,
+            "isExposed": true
+        }
+    ],
+    "_serializedGroups": [],
+    "_serializedComments": [],
+    "_serializedNodes": [
+        {
+            "version": 1,
+            "NodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "BoundParameterGuid": "",
+            "NodeType": "conveyor/controller",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"34b74a55-c678-4c41-8e60-55e7223456bc\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"\",\"_lstPortVisual\":[],\"_displayName\":\"conveyor/controller\",\"_position\":{\"x\":684.0,\"y\":80.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[],\"emergencyStop\":{\"Data\":false},\"itemIn\":{\"Data\":false},\"itemOut\":{\"Data\":false},\"isRunning\":{\"Data\":false},\"currentNumberOfItems\":{\"Data\":0},\"totalNumberOfItems\":{\"Data\":0}}"
+        },
+        {
+            "version": 1,
+            "NodeGuid": "4cd4e532-e0c9-47fc-92d2-b7e6c6bdf242",
+            "BoundParameterGuid": "a43e0646-1b6d-43f7-8d04-c9c347b15a2e",
+            "NodeType": "Boolean",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"4cd4e532-e0c9-47fc-92d2-b7e6c6bdf242\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"a43e0646-1b6d-43f7-8d04-c9c347b15a2e\",\"_lstPortVisual\":[],\"_displayName\":\"EmergencyStop\",\"_position\":{\"x\":250.0,\"y\":100.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[1,117,77,101,99,104,97,116,114,111,110,105,99,115,46,83,121,115,116,101,109,71,114,97,112,104,46,80,111,114,116,84,121,112,101,96,49,44,32,85,110,105,116,121,46,83,121,115,116,101,109,71,114,97,112,104,46,82,117,110,116,105,109,101,44,32,86,101,114,115,105,111,110,61,48,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,110,117,108,108,0,91,83,121,115,116,101,109,46,66,111,111,108,101,97,110,44,32,109,115,99,111,114,108,105,98,44,32,86,101,114,115,105,111,110,61,52,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,98,55,55,97,53,99,53,54,49,57,51,52,101,48,56,57]},\"DisplayName\":\"EmergencyStop\",\"Tooltip\":\"\",\"Direction\":2,\"Extra\":4}]}"
+        },
+        {
+            "version": 1,
+            "NodeGuid": "6b7b64ac-8980-482d-b26d-25c5a3d7a48a",
+            "BoundParameterGuid": "69def822-56aa-4195-a6fa-eadc18771757",
+            "NodeType": "Boolean",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"6b7b64ac-8980-482d-b26d-25c5a3d7a48a\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"69def822-56aa-4195-a6fa-eadc18771757\",\"_lstPortVisual\":[],\"_displayName\":\"ItemIn\",\"_position\":{\"x\":250.0,\"y\":179.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[1,117,77,101,99,104,97,116,114,111,110,105,99,115,46,83,121,115,116,101,109,71,114,97,112,104,46,80,111,114,116,84,121,112,101,96,49,44,32,85,110,105,116,121,46,83,121,115,116,101,109,71,114,97,112,104,46,82,117,110,116,105,109,101,44,32,86,101,114,115,105,111,110,61,48,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,110,117,108,108,0,91,83,121,115,116,101,109,46,66,111,111,108,101,97,110,44,32,109,115,99,111,114,108,105,98,44,32,86,101,114,115,105,111,110,61,52,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,98,55,55,97,53,99,53,54,49,57,51,52,101,48,56,57]},\"DisplayName\":\"ItemIn\",\"Tooltip\":\"\",\"Direction\":2,\"Extra\":4}]}"
+        },
+        {
+            "version": 1,
+            "NodeGuid": "fbfe6a7c-f4fd-4dc6-baf2-b9307154bf30",
+            "BoundParameterGuid": "b0913acd-bc7e-4acb-8f8b-9de0ff69904e",
+            "NodeType": "Boolean",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"fbfe6a7c-f4fd-4dc6-baf2-b9307154bf30\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"b0913acd-bc7e-4acb-8f8b-9de0ff69904e\",\"_lstPortVisual\":[],\"_displayName\":\"ItemOut\",\"_position\":{\"x\":250.0,\"y\":258.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[1,117,77,101,99,104,97,116,114,111,110,105,99,115,46,83,121,115,116,101,109,71,114,97,112,104,46,80,111,114,116,84,121,112,101,96,49,44,32,85,110,105,116,121,46,83,121,115,116,101,109,71,114,97,112,104,46,82,117,110,116,105,109,101,44,32,86,101,114,115,105,111,110,61,48,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,110,117,108,108,0,91,83,121,115,116,101,109,46,66,111,111,108,101,97,110,44,32,109,115,99,111,114,108,105,98,44,32,86,101,114,115,105,111,110,61,52,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,98,55,55,97,53,99,53,54,49,57,51,52,101,48,56,57]},\"DisplayName\":\"ItemOut\",\"Tooltip\":\"\",\"Direction\":2,\"Extra\":4}]}"
+        },
+        {
+            "version": 1,
+            "NodeGuid": "301c98e4-4811-441b-a5ea-cef12cff3767",
+            "BoundParameterGuid": "942b1d24-2880-4ba6-8b2e-003a29fb0d9c",
+            "NodeType": "Boolean",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"301c98e4-4811-441b-a5ea-cef12cff3767\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"942b1d24-2880-4ba6-8b2e-003a29fb0d9c\",\"_lstPortVisual\":[],\"_displayName\":\"IsRunning\",\"_position\":{\"x\":1358.0,\"y\":100.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[1,117,77,101,99,104,97,116,114,111,110,105,99,115,46,83,121,115,116,101,109,71,114,97,112,104,46,80,111,114,116,84,121,112,101,96,49,44,32,85,110,105,116,121,46,83,121,115,116,101,109,71,114,97,112,104,46,82,117,110,116,105,109,101,44,32,86,101,114,115,105,111,110,61,48,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,110,117,108,108,0,91,83,121,115,116,101,109,46,66,111,111,108,101,97,110,44,32,109,115,99,111,114,108,105,98,44,32,86,101,114,115,105,111,110,61,52,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,98,55,55,97,53,99,53,54,49,57,51,52,101,48,56,57]},\"DisplayName\":\"IsRunning\",\"Tooltip\":\"\",\"Direction\":1,\"Extra\":2}]}"
+        },
+        {
+            "version": 1,
+            "NodeGuid": "389e502c-bd73-4342-9bd5-2257f4bf41d8",
+            "BoundParameterGuid": "69d8c780-f038-4ff5-9e9c-08e9a2204309",
+            "NodeType": "UInt",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"389e502c-bd73-4342-9bd5-2257f4bf41d8\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"69d8c780-f038-4ff5-9e9c-08e9a2204309\",\"_lstPortVisual\":[],\"_displayName\":\"CurrentNumberOfItems\",\"_position\":{\"x\":1358.0,\"y\":179.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[1,117,77,101,99,104,97,116,114,111,110,105,99,115,46,83,121,115,116,101,109,71,114,97,112,104,46,80,111,114,116,84,121,112,101,96,49,44,32,85,110,105,116,121,46,83,121,115,116,101,109,71,114,97,112,104,46,82,117,110,116,105,109,101,44,32,86,101,114,115,105,111,110,61,48,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,110,117,108,108,0,90,83,121,115,116,101,109,46,85,73,110,116,51,50,44,32,109,115,99,111,114,108,105,98,44,32,86,101,114,115,105,111,110,61,52,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,98,55,55,97,53,99,53,54,49,57,51,52,101,48,56,57]},\"DisplayName\":\"CurrentNumberOfItems\",\"Tooltip\":\"\",\"Direction\":1,\"Extra\":2}]}"
+        },
+        {
+            "version": 1,
+            "NodeGuid": "11ae8bea-8bff-4c7c-bd05-6f7895b59878",
+            "BoundParameterGuid": "99b28562-3e35-43e5-968f-3b746392f287",
+            "NodeType": "UInt",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"11ae8bea-8bff-4c7c-bd05-6f7895b59878\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"99b28562-3e35-43e5-968f-3b746392f287\",\"_lstPortVisual\":[],\"_displayName\":\"TotalNumberOfItems\",\"_position\":{\"x\":1358.0,\"y\":258.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[1,117,77,101,99,104,97,116,114,111,110,105,99,115,46,83,121,115,116,101,109,71,114,97,112,104,46,80,111,114,116,84,121,112,101,96,49,44,32,85,110,105,116,121,46,83,121,115,116,101,109,71,114,97,112,104,46,82,117,110,116,105,109,101,44,32,86,101,114,115,105,111,110,61,48,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,110,117,108,108,0,90,83,121,115,116,101,109,46,85,73,110,116,51,50,44,32,109,115,99,111,114,108,105,98,44,32,86,101,114,115,105,111,110,61,52,46,48,46,48,46,48,44,32,67,117,108,116,117,114,101,61,110,101,117,116,114,97,108,44,32,80,117,98,108,105,99,75,101,121,84,111,107,101,110,61,98,55,55,97,53,99,53,54,49,57,51,52,101,48,56,57]},\"DisplayName\":\"TotalNumberOfItems\",\"Tooltip\":\"\",\"Direction\":1,\"Extra\":2}]}"
+        }
+    ],
+    "_serializedEdges": [
+        {
+            "version": 1,
+            "SourceNodeGuid": "4cd4e532-e0c9-47fc-92d2-b7e6c6bdf242",
+            "SourceMemberPortName": "EmergencyStop",
+            "SourceMemberTypeName": "PortType<Boolean>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "TargetMemberPortName": "EmergencyStop",
+            "TargetMemberTypeName": "PortType<Boolean>",
+            "TargetPortGuid": ""
+        },
+        {
+            "version": 1,
+            "SourceNodeGuid": "6b7b64ac-8980-482d-b26d-25c5a3d7a48a",
+            "SourceMemberPortName": "ItemIn",
+            "SourceMemberTypeName": "PortType<Boolean>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "TargetMemberPortName": "ItemIn",
+            "TargetMemberTypeName": "PortType<Boolean>",
+            "TargetPortGuid": ""
+        },
+        {
+            "version": 1,
+            "SourceNodeGuid": "fbfe6a7c-f4fd-4dc6-baf2-b9307154bf30",
+            "SourceMemberPortName": "ItemOut",
+            "SourceMemberTypeName": "PortType<Boolean>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "TargetMemberPortName": "ItemOut",
+            "TargetMemberTypeName": "PortType<Boolean>",
+            "TargetPortGuid": ""
+        },
+        {
+            "version": 1,
+            "SourceNodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "SourceMemberPortName": "IsRunning",
+            "SourceMemberTypeName": "PortType<Boolean>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "301c98e4-4811-441b-a5ea-cef12cff3767",
+            "TargetMemberPortName": "IsRunning",
+            "TargetMemberTypeName": "PortType<Boolean>",
+            "TargetPortGuid": ""
+        },
+        {
+            "version": 1,
+            "SourceNodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "SourceMemberPortName": "CurrentNumberOfItems",
+            "SourceMemberTypeName": "PortType<UInt32>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "389e502c-bd73-4342-9bd5-2257f4bf41d8",
+            "TargetMemberPortName": "CurrentNumberOfItems",
+            "TargetMemberTypeName": "PortType<UInt32>",
+            "TargetPortGuid": ""
+        },
+        {
+            "version": 1,
+            "SourceNodeGuid": "34b74a55-c678-4c41-8e60-55e7223456bc",
+            "SourceMemberPortName": "TotalNumberOfItems",
+            "SourceMemberTypeName": "PortType<UInt32>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "11ae8bea-8bff-4c7c-bd05-6f7895b59878",
+            "TargetMemberPortName": "TotalNumberOfItems",
+            "TargetMemberTypeName": "PortType<UInt32>",
+            "TargetPortGuid": ""
+        }
+    ],
+    "_serializedMeta": []
+}
