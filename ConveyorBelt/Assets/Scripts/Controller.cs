@@ -34,9 +34,6 @@ public class Controller : NodeRuntime
 		itemIn.ChangeEvent += OnItemIn;
 		itemOut.ChangeEvent += OnItemOut;
 		
-		itemIn.ChangeEvent += ProcessOutputs;
-		itemOut.ChangeEvent += ProcessOutputs;
-
 		emergencyStop.ChangeEvent += ProcessOutputs;
 		
 		ProcessOutputs();
@@ -47,9 +44,6 @@ public class Controller : NodeRuntime
 		itemIn.ChangeEvent -= OnItemIn;
 		itemOut.ChangeEvent -= OnItemOut;
 		
-		itemIn.ChangeEvent -= ProcessOutputs;
-		itemOut.ChangeEvent -= ProcessOutputs;
-
 		emergencyStop.ChangeEvent -= ProcessOutputs;
 	}
 
@@ -59,6 +53,7 @@ public class Controller : NodeRuntime
 		{
 			m_CurrentItemCount++;
 			m_TotalItemCount++;
+			ProcessOutputs();
 		}
 	}
 	
@@ -67,6 +62,7 @@ public class Controller : NodeRuntime
 		if (itemOut.Read)
 		{
 			m_CurrentItemCount--;
+			ProcessOutputs();
 		}
 	}
 

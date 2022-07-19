@@ -6,7 +6,7 @@
     "com.unity.ide.visualstudio": "2.0.15",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.render-pipelines.high-definition": "13.1.8",
-    "com.unity.systemgraph": "2.0.0",
+    "com.unity.systemgraph": "file:D:/Git/ATM/Mechatronics/com.unity.systemgraph",
     "com.unity.test-framework": "1.1.31",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.1",
