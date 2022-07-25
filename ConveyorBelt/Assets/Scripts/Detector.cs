@@ -21,9 +21,9 @@ public class Detector : NodeRuntime
 
 	public override bool OnTick(double now, double eventTime, Scheduler.ClockState clockState, Scheduler.Signal signal)
 	{
-		Debug.Log($"Detector: collision detected: {m_CollisionSensor.data.collisionDetected}");
+		Debug.Log($"Detector: collision detected: {m_CollisionSensor.data.CollisionDetected}");
 
-		itemDetected.Write = m_CollisionSensor.data.collisionDetected;
+		itemDetected.Write = m_CollisionSensor.data.CollisionDetected;
 		return true;
 	}
 }
