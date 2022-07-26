@@ -21,6 +21,11 @@ upm-ci~/**
 utr.bat
 poetry.lock
 
+#Linked Samples
+**/Samples~/*.meta
+**/Samples/SensorSDK/**/*.*
+**/Samples/SensorSDK.meta
+
 # Visual Studio cache directory
 .vs/
 
@@ -52,7 +57,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-**/Samples~/*.meta
+
 
 **/*/UserSettings/**
 **/*/Packages/packages-lock.json

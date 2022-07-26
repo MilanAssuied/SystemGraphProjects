@@ -1,0 +1,207 @@
+{
+    "_fileVersion": 5,
+    "_md5": "fe45ed920b47e5e2c156fe68ace4ba3c",
+    "_serializedVariants": [
+        {
+            "version": 1,
+            "Guid": "78776ac4-8a8b-473d-8ee0-b56db9ec031c",
+            "Name": "<default>"
+        },
+        {
+            "version": 1,
+            "Guid": "a6025d71-a75a-448a-a703-3c904d96854e",
+            "Name": "Increment"
+        },
+        {
+            "version": 1,
+            "Guid": "f29efe07-7ff9-465f-83c8-e69a3c5b1e49",
+            "Name": "Decrement"
+        }
+    ],
+    "_serializedScheduler": {
+        "version": 1,
+        "Guid": "",
+        "ClockSource": 0,
+        "TimeUnit": 1000,
+        "NodeGuidOrder": [
+            "fc266b59-a812-4b2e-958c-0c1337653984"
+        ],
+        "ClockEvents": [
+            {
+                "version": 1,
+                "Guid": "",
+                "UseClockSourceFrequency": false,
+                "NodeGuid": "fc266b59-a812-4b2e-958c-0c1337653984",
+                "TimeOffset": 0.0,
+                "Duration": 500.0,
+                "Frequency": 1.0
+            }
+        ],
+        "Prescaler": 1
+    },
+    "_serializedParameters": [
+        {
+            "version": 2,
+            "Guid": "b1c27462-9109-41cf-80c2-968b5e871c00",
+            "Type": "GameObject",
+            "Name": "LcdObject",
+            "Value": "",
+            "Direction": 2,
+            "FieldExtra": 4,
+            "isExposed": true
+        },
+        {
+            "version": 2,
+            "Guid": "2a1900b6-d9e7-40aa-8e2f-f3987ed1eb24",
+            "Type": "UInt",
+            "Name": "Increment",
+            "Value": "",
+            "Direction": 2,
+            "FieldExtra": 4,
+            "isExposed": true
+        }
+    ],
+    "_serializedGroups": [],
+    "_serializedComments": [],
+    "_serializedNodes": [
+        {
+            "version": 1,
+            "NodeGuid": "fc266b59-a812-4b2e-958c-0c1337653984",
+            "BoundParameterGuid": "",
+            "NodeType": "HellowWorld/CounterPinOut",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"fc266b59-a812-4b2e-958c-0c1337653984\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"\",\"_lstPortVisual\":[],\"_displayName\":\"HellowWorld/CounterPinOut\",\"_position\":{\"x\":895.0,\"y\":-203.0,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "",
+            "CartridgeSet": [
+                {
+                    "version": 1,
+                    "VariantGuid": "78776ac4-8a8b-473d-8ee0-b56db9ec031c",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "AGNOZXdfRm9sZGVyLkNvdW50ZXJJbmNyZW1lbnQsIEFzc2VtYmx5LUNTaGFycCwgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGw=",
+                        "guid": "fa4a4dd59fa39d648834d03216d4df88"
+                    }
+                },
+                {
+                    "version": 1,
+                    "VariantGuid": "a6025d71-a75a-448a-a703-3c904d96854e",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "AGNOZXdfRm9sZGVyLkNvdW50ZXJJbmNyZW1lbnQsIEFzc2VtYmx5LUNTaGFycCwgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGw=",
+                        "guid": "fa4a4dd59fa39d648834d03216d4df88"
+                    }
+                },
+                {
+                    "version": 1,
+                    "VariantGuid": "f29efe07-7ff9-465f-83c8-e69a3c5b1e49",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "AGNOZXdfRm9sZGVyLkNvdW50ZXJEZWNyZW1lbnQsIEFzc2VtYmx5LUNTaGFycCwgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGw=",
+                        "guid": "b9c45a1ea4b6b5840852834b4089287a"
+                    }
+                }
+            ]
+        },
+        {
+            "version": 1,
+            "NodeGuid": "7d63c1fb-c9e4-4b8b-b724-d2bd08bb7e18",
+            "BoundParameterGuid": "b1c27462-9109-41cf-80c2-968b5e871c00",
+            "NodeType": "GameObject",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"7d63c1fb-c9e4-4b8b-b724-d2bd08bb7e18\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"b1c27462-9109-41cf-80c2-968b5e871c00\",\"_lstPortVisual\":[],\"_displayName\":\"LcdObject\",\"_position\":{\"x\":438.709716796875,\"y\":-158.96775817871095,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[],\"strData\":\"AXVNZWNoYXRyb25pY3MuU3lzdGVtR3JhcGguUG9ydFR5cGVgMSwgVW5pdHkuU3lzdGVtR3JhcGguUnVudGltZSwgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwAZVVuaXR5RW5naW5lLkdhbWVPYmplY3QsIFVuaXR5RW5naW5lLkNvcmVNb2R1bGUsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxs\",\"guid\":\"\"},\"DisplayName\":\"LcdObject\",\"Tooltip\":\"\",\"Direction\":2,\"Extra\":4}]}",
+            "CartridgeSet": [
+                {
+                    "version": 1,
+                    "VariantGuid": "78776ac4-8a8b-473d-8ee0-b56db9ec031c",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "",
+                        "guid": ""
+                    }
+                },
+                {
+                    "version": 1,
+                    "VariantGuid": "a6025d71-a75a-448a-a703-3c904d96854e",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "",
+                        "guid": ""
+                    }
+                },
+                {
+                    "version": 1,
+                    "VariantGuid": "f29efe07-7ff9-465f-83c8-e69a3c5b1e49",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "",
+                        "guid": ""
+                    }
+                }
+            ]
+        },
+        {
+            "version": 1,
+            "NodeGuid": "bd07bb78-7c59-4fa7-8fea-edcd739c745a",
+            "BoundParameterGuid": "2a1900b6-d9e7-40aa-8e2f-f3987ed1eb24",
+            "NodeType": "UInt",
+            "GroupGuid": "",
+            "JSON": "{\"_nodeGuid\":\"bd07bb78-7c59-4fa7-8fea-edcd739c745a\",\"_boundObject\":\"\",\"_boundParameterGuid\":\"2a1900b6-d9e7-40aa-8e2f-f3987ed1eb24\",\"_lstPortVisual\":[],\"_displayName\":\"Increment\",\"_position\":{\"x\":521.2903442382813,\"y\":24.774192810058595,\"z\":0.0},\"_expanded\":true,\"_mirrorPorts\":false,\"targetGroup\":{\"Position\":{\"x\":0.0,\"y\":0.0}}}",
+            "JSONRuntime": "{\"_portList\":[{\"PortType\":{\"data\":[],\"strData\":\"AXVNZWNoYXRyb25pY3MuU3lzdGVtR3JhcGguUG9ydFR5cGVgMSwgVW5pdHkuU3lzdGVtR3JhcGguUnVudGltZSwgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwAWlN5c3RlbS5VSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQ==\",\"guid\":\"\"},\"DisplayName\":\"Increment\",\"Tooltip\":\"\",\"Direction\":2,\"Extra\":4}]}",
+            "CartridgeSet": [
+                {
+                    "version": 1,
+                    "VariantGuid": "78776ac4-8a8b-473d-8ee0-b56db9ec031c",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "",
+                        "guid": ""
+                    }
+                },
+                {
+                    "version": 1,
+                    "VariantGuid": "a6025d71-a75a-448a-a703-3c904d96854e",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "",
+                        "guid": ""
+                    }
+                },
+                {
+                    "version": 1,
+                    "VariantGuid": "f29efe07-7ff9-465f-83c8-e69a3c5b1e49",
+                    "CartridgeType": {
+                        "data": [],
+                        "strData": "",
+                        "guid": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "_serializedEdges": [
+        {
+            "version": 1,
+            "SourceNodeGuid": "7d63c1fb-c9e4-4b8b-b724-d2bd08bb7e18",
+            "SourceMemberPortName": "LcdObject",
+            "SourceMemberTypeName": "PortType<GameObject>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "fc266b59-a812-4b2e-958c-0c1337653984",
+            "TargetMemberPortName": "LcdDisplay",
+            "TargetMemberTypeName": "PortType<GameObject>",
+            "TargetPortGuid": ""
+        },
+        {
+            "version": 1,
+            "SourceNodeGuid": "bd07bb78-7c59-4fa7-8fea-edcd739c745a",
+            "SourceMemberPortName": "Increment",
+            "SourceMemberTypeName": "PortType<UInt32>",
+            "SourcePortGuid": "",
+            "TargetNodeGuid": "fc266b59-a812-4b2e-958c-0c1337653984",
+            "TargetMemberPortName": "Incrementation",
+            "TargetMemberTypeName": "PortType<UInt32>",
+            "TargetPortGuid": ""
+        }
+    ],
+    "_serializedMeta": []
+}

@@ -1,0 +1,27 @@
+
+{
+    "_fileVersion": 5,
+    "_md5": "7143f894d221155d41cd1bed4cf6b958",
+    "_serializedVariants": [
+        {
+            "version": 1,
+            "Guid": "78776ac4-8a8b-473d-8ee0-b56db9ec031c",
+            "Name": "<default>"
+        }
+    ],
+    "_serializedScheduler": {
+        "version": 1,
+        "Guid": "",
+        "ClockSource": 0,
+        "TimeUnit": 1000,
+        "NodeGuidOrder": [],
+        "ClockEvents": [],
+        "Prescaler": 1
+    },
+    "_serializedParameters": [],
+    "_serializedGroups": [],
+    "_serializedComments": [],
+    "_serializedNodes": [],
+    "_serializedEdges": [],
+    "_serializedMeta": []
+}
