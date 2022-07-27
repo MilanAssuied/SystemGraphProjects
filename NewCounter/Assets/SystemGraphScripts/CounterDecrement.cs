@@ -9,17 +9,15 @@ namespace New_Folder
    
         public override void NodeCreate()
         {
-            Debug.Log("CounterIncrement: NodeCreate");
+            Debug.Log("CounterDecrement: NodeCreate");
         }
     
         public override void NodeStart()
         {
-            Debug.Log("CounterIncrement: NodeStart");
+            Debug.Log("CounterDecrement: NodeStart");
         
             if (Pin.SystemGraph != null)
             {
-                Pin.lcdDisplay.Link(Pin.SystemGraph.GetPropertyPort("LcdObject"));
-                Pin.incrementation.Link(Pin.SystemGraph.GetPropertyPort("Increment"));
                 Pin.Initialize();
             }
             else
@@ -28,12 +26,12 @@ namespace New_Folder
     
         public override void NodeEnable(Scheduler.ClockState clockState)
         {
-            Debug.Log("LidarGraphCartridge: NodeEnable");
+            Debug.Log("CounterDecrement: NodeEnable");
         }
     
         public override void NodeDisable()
         {
-            Debug.Log("LidarGraphCartridge: NodeDisable");
+            Debug.Log("CounterDecrement: NodeDisable");
         }
     
         public override bool NodeTick(double now, double eventTime, Scheduler.ClockState clockState, Scheduler.Signal signal)

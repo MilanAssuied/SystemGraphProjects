@@ -18,8 +18,6 @@ namespace New_Folder
         
             if (Pin.SystemGraph != null)
             {
-                Pin.lcdDisplay.Link(Pin.SystemGraph.GetPropertyPort("LcdObject"));
-                Pin.incrementation.Link(Pin.SystemGraph.GetPropertyPort("Increment"));
                 Pin.Initialize();
             }
             else
